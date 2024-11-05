@@ -1,0 +1,25 @@
+.music-player {
+    width: 350px;
+    margin: auto;
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+.playlist {
+    margin-bottom: 15px;
+}
+.song {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+.play-btn {
+    background-color: #444;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
