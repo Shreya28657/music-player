@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="playlist">
+            <div class="song" data-src="music/Keys-To-Unravel.mp3">
+                <p class="title">Unravel</p>
+                <p class="artist">Artist 1</p>
+                <button class="play-btn">Play</button>
+            </div>
+            <div class="song" data-src="music/summer.mp3">
+                <p class="title">Summer</p>
+                <p class="artist">Artist 2</p>
+                <button class="play-btn">Play</button>
+            </div>
+            <div class="song" data-src="music/ukulele.mp3">
+                <p class="title">Ukulele</p>
+                <p class="artist">Artist 3</p>
+                <button class="play-btn">Play</button>
+            </div>
+        </div>
+        <audio id="audio-player" controls></audio>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
